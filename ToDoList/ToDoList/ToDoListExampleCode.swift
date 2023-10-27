@@ -16,7 +16,7 @@ struct Task {
         // 1. Extend the task class
         // 2. Add it within the class
     var description: String {
-        // Returning the task with the title and whether ot not its completed (based on the bool provided)
+        // Returning the task with the title and whether or not its completed (based on the bool provided)
         return "Task: " + title + " " + (completed ? "✅" : "❌ ")
         
     }
